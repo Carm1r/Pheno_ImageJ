@@ -9,16 +9,13 @@ sufficient to put the script files into a _subfolder_ of `ImageJ.app/scripts/`.
 
 ---
 
-## How to use
+## Functions included
 
-1. Visit [this link](https://github.com/imagej/example-script-collection/generate)
-   to create a new repository in your space using this one as a template.
+1. CIELab_ROI: Calculate average CIELab L, a and b values for auto-identified ROIs in a 
+picture: This script has been developed within the APPLECUT project for automated calculation 
+of average color assessment of browning in fresh-cut apple slices. The script allows to set 
+the minimum size (in pixels) that should be  considered in the automated ROI detection. 
 
-2. Delete `src/test/java` if you don't require tests.
-
-3. Put your scripts into a *subfolder* of `src/main/resources/scripts` (the
-   name of the subfolder[s] corresponds to the menu[s] where the commands will
-   appear).
 
 4. Edit `pom.xml` to reflect your project information.
 
