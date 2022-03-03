@@ -16,14 +16,3 @@ picture: This script has been developed within the APPLECUT project for automate
 of average color assessment of browning in fresh-cut apple slices. The script allows to set 
 the minimum size (in pixels) that should be  considered in the automated ROI detection. 
 
-
-4. Edit `pom.xml` to reflect your project information.
-
-5. Run `mvn` to build your jar file, or
-   `mvn -Dscijava.app.directory=/path/to/your/ImageJ.app` to directly copy the
-   jar file and possible dependencies into your ImageJ/Fiji installation.
-
-5. Make your initial
-   [commit](https://help.github.com/en/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project) and
-   [push the results](https://help.github.com/en/articles/pushing-commits-to-a-remote-repository)!
-
