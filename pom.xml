@@ -12,33 +12,30 @@
 		<relativePath />
 	</parent>
 
-	<artifactId>example-script-collection</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<artifactId>Pheno_ImageJ</artifactId>
+	<version>0.1.0</version>
 
-	<name>Script Collection</name>
-	<description>A Maven project collecting ImageJ scripts.</description>
+	<name>Pheno</name>
+	<description>Phenotyping tools and scripts for ImageJ.</description>
 	<url>N/A</url>
-	<inceptionYear>2017</inceptionYear>
+	<inceptionYear>2022</inceptionYear>
 	<organization>
-		<name>My Company</name>
-		<url>https://mycompany.com/</url>
+		<name>Fruticultura y Viticultura Avanzadas - UPNA</name>
+		<url>https://www.unavarra.es/pdi?uid=2255</url>
 	</organization>
 	<licenses>
 		<license>
-			<name>Simplified BSD License</name>
+			<name>GPLv3</name>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
 
 	<developers>
-		<!-- See https://imagej.net/Team -->
 		<developer>
-			<id>imagejan</id>
-			<name>Jan Eglinger</name>
-			<url>https://imagej.net/User:Eglinger</url>
+			<id>Carm1r</id>
+			<name>Carlos Miranda</name>
+			<url>https://github.com/Carm1r</url>
 			<roles>
-				<role>founder</role>
-				<role>lead</role>
 				<role>developer</role>
 				<role>debugger</role>
 				<role>reviewer</role>
@@ -47,66 +44,19 @@
 			</roles>
 		</developer>
 	</developers>
-	<contributors>
-		<contributor>
-			<name>Curtis Rueden</name>
-			<url>https://imagej.net/User:Rueden</url>
-			<properties><id>ctrueden</id></properties>
-		</contributor>
-		<contributor>
-			<name>Stefan Helfrich</name>
-			<url>https://imagej.net/User:Stelfrich</url>
-			<properties><id>stelfrich</id></properties>
-		</contributor>
-	</contributors>
-
-	<mailingLists>
-		<mailingList>
-			<name>Image.sc Forum</name>
-			<archive>https://forum.image.sc/tags/imagej</archive>
-		</mailingList>
-	</mailingLists>
 
 	<scm>
-		<connection>scm:git:https://github.com/imagej/example-script-collection</connection>
-		<developerConnection>scm:git:git@github.com:imagej/example-script-collection</developerConnection>
+		<connection>scm:git:https://github.com/Carm1r/Pheno_ImageJ</connection>
+		<developerConnection>scm:git:git@github.com:Carm1r/Pheno_ImageJ</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/imagej/example-script-collection</url>
+		<url>https://github.com/Carm1r/Pheno_ImageJ</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/imagej/example-script-collection/issues</url>
+		<url>https://github.com/Carm1r/Pheno_ImageJ/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>None</system>
 	</ciManagement>
 
-	<properties>
-		<package-name>com.mycompany.imagej</package-name>
-		<license.licenseName>bsd_2</license.licenseName>
-		<license.copyrightOwners>My Company, Inc.</license.copyrightOwners>
-
-		<!-- NB: Deploy releases to the SciJava Maven repository. -->
-		<releaseProfiles>deploy-to-scijava</releaseProfiles>
-	</properties>
-
-	<repositories>
-		<repository>
-			<id>scijava.public</id>
-			<url>https://maven.scijava.org/content/groups/public</url>
-		</repository>
-	</repositories>
-
-	<dependencies>
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>imagej</artifactId>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
 </project>
