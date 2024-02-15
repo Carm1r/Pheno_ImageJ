@@ -16,3 +16,5 @@ picture: This script has been developed within the APPLECUT project for automate
 of average color assessment of browning in fresh-cut apple slices. The script allows to set 
 the minimum size (in pixels) that should be  considered in the automated ROI detection. 
 
+## Acknowledgements
+This research has been funded by project PID2019-108081RR-C22 (APPLECUT) funded by MCIN/ AEI /10.13039/501100011033
